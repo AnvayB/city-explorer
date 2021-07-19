@@ -36,6 +36,12 @@ class App extends React.Component {
         <p>
           Location ID: {this.state.location.place_id}
         </p>
+        <p>
+          Latitude: {this.state.location.latitude}
+        </p>
+        <p>
+          Longitude: {this.state.location.longitude}
+        </p>
       </div>
     )
   }
