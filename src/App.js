@@ -37,10 +37,10 @@ class App extends React.Component {
           Location ID: {this.state.location.place_id}
         </p>
         <p>
-          Latitude: {this.state.location.latitude}
+          Latitude: {this.state.location.lat}
         </p>
         <p>
-          Longitude: {this.state.location.longitude}
+          Longitude: {this.state.location.lon}
         </p>
       </div>
     )
