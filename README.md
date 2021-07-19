@@ -22,7 +22,7 @@ This website is perfect for people who are interested in travelling in a post-CO
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 ## Wireframe Model
-
+![Lab-06-Whiteboard-01](https://user-images.githubusercontent.com/53208269/126228201-8481f8ed-8b1b-460f-af9c-c91830bc8edf.jpg)
 
 ## Credit and Collaborations
 - Jesse Dills
