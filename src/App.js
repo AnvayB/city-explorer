@@ -26,8 +26,8 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <h1>City Explorer</h1>
-        <hr />
+        {/* <h1>City Explorer</h1>
+        <hr /> */}
 
         <input onChange = {(e) => this.setState({ searchQuery: e.target.value})}
         placeholder = "type city name here..." type="text" />
