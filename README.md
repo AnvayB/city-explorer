@@ -3,6 +3,8 @@
 **Author**: Anvay Bhanap
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
+### Deployment: https://anvayb-city-explorer.netlify.app/
+
 ## Overview
 This website is perfect for people who are interested in travelling in a post-COVID world
 
