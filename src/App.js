@@ -26,7 +26,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <h1 style="text-align:center;">City Explorer</h1>
+        <h1>City Explorer</h1>
         <hr />
 
         <input onChange = {(e) => this.setState({ searchQuery: e.target.value})}
