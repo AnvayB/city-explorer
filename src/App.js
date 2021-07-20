@@ -12,7 +12,8 @@ class App extends React.Component {
     this.state = {
       searchQuery: '',
       location: {},
-      map: ''
+      map: '',
+      errorAlert: true,
     }
   }
   
@@ -25,7 +26,7 @@ class App extends React.Component {
     this.setState({ location: response.data[0]});
 
 
-    const MAP = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_EXPLORER}&center=${this.state.location.lat},${this.state.location.lon}&zoom=11.5`;
+    const MAP = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_EXPLORER}&center=${this.state.location.lat},${this.state.location.lon}&zoom=13`;
     const respond = await axios.get(MAP);
     console.log(this.state.map);
     this.setState({ map: respond.config.url});

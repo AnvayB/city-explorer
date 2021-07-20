@@ -29,7 +29,7 @@ This website is perfect for people who are interested in traveling in a post-COV
 
 ## Credit and Collaborations
 - Jesse Dills
-- Matt Cho
+
 
 ---
 
