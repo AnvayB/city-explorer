@@ -32,12 +32,40 @@ This website is perfect for people who are interested in travelling in a post-CO
 ---
 
 ### Lab 06 - Day 1
-Name of feature: ________________________________
+Name of feature: Locations
 
 Estimate of time needed to complete: _____
 
-Start time: _____
+Start time: 2:50pm
+
+Finish time: 4:20pm
+
+Actual time needed to complete: 1.5 hrs
+
+---
+
+Name of feature: Map
+
+Estimate of time needed to complete: _____
+
+Start time: 4:25pm
+
+Finish time: 6:10pm
+
+Actual time needed to complete: 1.75 hrs
+
+---
+
+Name of feature: Error
+
+Estimate of time needed to complete: _____
+
+Start time: 6:15pm
 
 Finish time: _____
 
 Actual time needed to complete: _____
+
+---
+
+
