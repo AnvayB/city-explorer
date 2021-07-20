@@ -23,12 +23,13 @@ This website is perfect for people who are interested in traveling in a post-COV
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 ## Wireframe Model
-<!-- ![Lab-06-Whiteboard-01](https://user-images.githubusercontent.com/53208269/126228201-8481f8ed-8b1b-460f-af9c-c91830bc8edf.jpg) -->
+
 <img width="1021" alt="Screen Shot 2021-07-20 at 1 46 43 PM" src="https://user-images.githubusercontent.com/53208269/126393218-c11847db-4420-4246-a41a-bd95f5963cd4.png">
 
 
 ## Credit and Collaborations
 - Jesse Dills
+- Matt Cho
 
 ---
 
