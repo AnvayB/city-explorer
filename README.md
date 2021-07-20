@@ -6,8 +6,7 @@
 ### Deployment: https://anvayb-city-explorer.netlify.app/
 
 ## Overview
-This website is perfect for people who are interested in travelling in a post-COVID world
-
+This website is perfect for people who are interested in traveling in a post-COVID world and want to know more about the places they're interested in visiting.
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
