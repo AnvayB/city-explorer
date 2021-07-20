@@ -25,7 +25,7 @@ class App extends React.Component {
     this.setState({ location: response.data[0]});
 
 
-    const MAP = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_EXPLORER}&center=${this.state.location.lat},${this.state.location.lon}&zoom=11`;
+    const MAP = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_EXPLORER}&center=${this.state.location.lat},${this.state.location.lon}&zoom=11.5`;
     const respond = await axios.get(MAP);
     console.log(this.state.map);
     this.setState({ map: respond.config.url});
@@ -43,11 +43,9 @@ class App extends React.Component {
         <h1>City Explorer</h1>
         <hr />
        
-        <Alert show={this.state.errorAlert} variant="warning">
-          Error {this.state.errors}: Unable to geocode
-          <Button varaint="warning" onClick={() => this.setState({errorAlert: false})}>
-            Close
-          </Button>
+        <Alert className = "alert" show={this.state.errorAlert} variant="warning">
+          Error {this.state.errors}: Unable to geocode <br />
+          Please enter a city below.
         </Alert>
 
 
@@ -58,13 +56,14 @@ class App extends React.Component {
             <Button variant="primary" type="submit">
               Explore!
             </Button>
-            <Form.Text>
+            <Form.Text className = "text">
             <br />
             Location: {this.state.location.display_name} <br />
             Location ID: {this.state.location.place_id} <br />
             Latitude: {this.state.location.lat} <br />
             Longitude: {this.state.location.lon} <br />
             <img src = {this.state.map} alt=""/>
+            <hr />
             </Form.Text>
           </Form.Group>
         </Form>
