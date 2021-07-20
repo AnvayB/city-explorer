@@ -1,7 +1,18 @@
 * {
   text-align: center;
+  background-color: rgb(94, 176, 231);
 }
 
-Form, h1 {
-  background-color: lightgreen;
+.alert {
+  background-color: rgb(231, 144, 144);
+  color: black;
+}
+
+.text {
+  color: black;
+  font-weight: 600;
+}
+
+img {
+  margin-top: 20px;
 }
