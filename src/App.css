@@ -1,3 +1,7 @@
-Form {
-  background-color: blue;
+* {
+  text-align: center;
+}
+
+Form, h1 {
+  background-color: lightgreen;
 }
