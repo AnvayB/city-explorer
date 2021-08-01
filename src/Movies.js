@@ -13,9 +13,8 @@ class Movies extends React.Component {
               <Card.Body>
                 <p>Release Date: {value.releasedOn}</p>
                 <p>Popularity: {value.popularity}</p>
-                <p>Overview: {value.overview}</p>
-                <p>Average Votes: {value.avgVotes}</p>
-                <p>Total Votes: {value.totalVotes}</p>
+                <p>Description: {value.overview}</p>
+                <p>Avg Votes: {value.avgVotes}; Total Votes: {value.totalVotes}</p>
               </Card.Body>
             </Card>
           </>
