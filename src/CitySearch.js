@@ -11,10 +11,7 @@ class CitySearch extends React.Component {
   render() {
     return (
       <>
-      {/* <Alert className = "alert" show={this.state.errorAlert} variant="warning">
-           Error {this.state.errors}: Unable to geocode <br />
-           Please enter a city below.
-      </Alert> */}
+      
       <div className="city-form">
       <Form onSubmit={this.handleSubmit}>
         <Form.Group>
