@@ -36,7 +36,7 @@ class Main extends React.Component {
 
   getWeather = async () => {
     try {
-      const weatherQuery = `https://city-explorer-anvay.herokuapp.com/weather?searchQuery=${this.state.searchQuery}`;
+      const weatherQuery = `https://mc-city-explorer-api.herokuapp.com/weather?searchQuery=${this.state.searchQuery}`;
       const weatherResponse = await axios.get(weatherQuery);
 
       this.setState({
@@ -49,7 +49,7 @@ class Main extends React.Component {
 
   getMovies = async () => {
     try {
-      const movieQuery = `https://city-explorer-anvay.herokuapp.com/movies?searchQuery=${this.state.searchQuery}`;
+      const movieQuery = `https://mc-city-explorer-api.herokuapp.com/movies?searchQuery=${this.state.searchQuery}`;
       const movieResponse = await axios.get(movieQuery);
 
       this.setState({
