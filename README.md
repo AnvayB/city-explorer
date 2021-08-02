@@ -3,7 +3,7 @@
 **Author**: Anvay Bhanap
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0e5348b8-a468-4eab-a896-ba99f65a2613/deploy-status)](https://app.netlify.com/sites/anvayb-city-explorer/deploys)
+
 ### Deployment: https://anvayb-city-explorer.netlify.app/
 
 
